@@ -1,0 +1,83 @@
+
+.card{
+    display: flex;
+    border: none;
+    flex-direction: column;
+    max-width: 20rem;
+    padding-left: 0%;
+    padding-right: 0%;
+    border: 2px solid #008cba;
+}
+
+@keyframes opac{from{opacity:0} to{opacity:1}}
+
+.vacation-image{
+    position: relative;
+}
+
+.card-body{
+    position: absolute;
+    transition: .5s ease;
+    opacity: 0;
+    color: #0f346b;
+    transform: translate(0 ,-15rem);
+}
+
+.card-subtitle{
+    margin: 0;
+}
+.card:hover .card-body{
+    opacity: 1;
+}
+
+.card:hover .v-image {
+    opacity: 0.3;
+}
+  
+.v-image{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    display: block;
+}
+
+.card-header
+{
+    border: none;
+    background-color: #008cba;
+    color: white;
+    font-size: large;
+}
+
+.top-header{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between; 
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    color: #5e5e5e;
+    border: none;
+    font-size: medium;
+    justify-content: space-between;
+    background-color:white;
+}
+
+.end-date{
+   text-align: right;
+}
+
+.star{
+    text-align: center;
+}
+
+.fa-star{
+    color: white;
+}
+
+.fa-star:hover{
+    cursor: pointer;
+}

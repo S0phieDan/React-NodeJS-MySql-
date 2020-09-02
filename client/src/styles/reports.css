@@ -1,0 +1,19 @@
+.reports-chart{
+    width: 50%;
+    height: auto;
+    padding-top:30px;
+}
+
+.heading{
+    margin-left: 5%;
+}
+
+.heading h3{
+    color: #0f346b;
+    font-weight: 600;
+}
+
+.heading p{
+    color: #383838;
+    font-size: medium;
+}

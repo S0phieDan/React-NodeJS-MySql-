@@ -1,0 +1,33 @@
+.login-fields {
+    margin-top: 50%;
+    margin-right :30px;
+    margin-left: 30px;
+}
+
+#username {
+    border: none;
+    width: 100%;
+}
+
+#password {
+    border: none;
+    width: 100%;
+}
+
+.flex-field {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: azure;
+}
+
+.new-user {
+    text-align: center;
+    color: azure;
+}

@@ -1,0 +1,40 @@
+.ellipsis{
+    text-align: center;
+}
+
+.fa-pencil:hover{
+    cursor: pointer;
+    color: #0f346b;
+}
+
+.fa-trash-o:hover{
+    cursor: pointer;
+    color: #0f346b;
+}
+
+
+.selection{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.options{
+    display: flex;
+    color: #5e5e5e;
+    font-weight: 500;
+    font-size:large;
+    justify-content: center;
+}
+
+.option:hover{
+    color: #008cba;
+    border-bottom: 1.5px solid #008cba;
+    cursor: pointer;
+}
+
+.active-option{
+    color: #008cba;
+    border-bottom: 1.5px solid #008cba;
+}
+

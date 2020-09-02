@@ -1,0 +1,31 @@
+.top-header input{
+    color: #5e5e5e;
+    border: none;
+}
+
+.fa-check-square:hover{
+    cursor: pointer;
+    color: #0f346b;
+}
+
+.fa-window-close:hover{
+    cursor: pointer;
+    color: #0f346b;
+}
+
+.insert-body{
+    position: relative;
+}
+
+.v-image-insert{
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    display: block;
+}
+
+.footer-insert{
+    display: flex;
+    flex-direction: column;
+}

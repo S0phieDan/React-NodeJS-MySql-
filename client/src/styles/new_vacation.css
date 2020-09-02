@@ -1,0 +1,38 @@
+.vacation-form{
+    width: 50rem;
+    margin: 0 !important;
+    padding-top:30px;
+}
+
+.form-group{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: medium;
+}
+
+.form-group label{
+    font-size: medium;
+    color: #383838;
+}
+
+.form-name h3{
+    color: #0f346b;
+    font-weight: 600;
+    margin-left: 20px;
+}
+
+.vacation-form{
+    margin: 16px;
+}
+
+.new-image-vacation{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
